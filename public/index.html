@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/styles.css">
+</head>
+<body class="h-screen bg-main flex px-8 py-12">
+    <main class="m-auto md:grid md:grid-cols-2 rounded-lg bg-card">
+        <section class="relative overflow-hidden order-2">
+            <div class=" absolute object-cover h-full w-full bg-accent opacity-50"></div>
+            <picture>
+                <source  media="(min-width: 650)" srcset="../images/image-header-desktop.jpg">
+                <img class="w-full h-full object-cover rounded-lg min-h-[calc(100% - 101px)]" src="../images/image-header-mobile.jpg" alt="">
+            </picture>
+        </section>
+        <section class="md:p-10 md:mt-0 text-center md:text-left mt-8 md:mt-0ss grid grid-cols-1 gap-4 p-8 lg:p-16">
+            <article>
+                <h1 class="text-white text-2xl font-bold px-12 md:p-0 md:text-3xl lg:text-5xl">Get <span class="text-accent">insights</span> that help your business grow.</h1>
+            </article>
+            <article class="mt-2">
+                <p class="text-paragraph lg:text-xl">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            </article>
+            <article class="mt-2 md:mt-6 grid grid-cols-1 gap-4 md:flex md:flex-row md:justify-between lg:justify-between">
+                <section>
+                    <h2 class="text-white text-xl font-semibold">10k+</h2>
+                    <small class="text-paragraph uppercase text-xs">companies</small>
+                </section>
+                <section>
+                    <h2 class="text-white text-xl font-semibold">314</h2>
+                    <small class="text-paragraph uppercase text-xs">templates</small>
+                </section>
+                <section>
+                    <h2 class="text-white text-xl font-semibold">12M+</h2>
+                    <small class="text-paragraph uppercase text-xs">queries</small>
+                </section>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
